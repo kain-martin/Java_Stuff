@@ -1,0 +1,21 @@
+public class Nested {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for (byte a = 9; a < 12; a++){
+		byte b = 10;
+		byte c = 15;
+		
+		if (a < b)
+		System.out.println("a is less than b");
+		else if (a==b)
+			System.out.println("You changed it.");
+		else if (a > b)
+			System.out.println("Changed it again?");
+		
+		
+		
+	}
+	}
+}
