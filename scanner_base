@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.Scanner;
+public class Scan_Prac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	    Scanner in = new Scanner(System.in);  // new scanner input
+        System.out.print("Enter your name: ");  // What is displayed to get the input
+        String name = in.nextLine();  // declaring the variable (String name) in the next line (input)
+        System.out.println("Name is: " + name);  // Response to the input           
+        in.close(); 
