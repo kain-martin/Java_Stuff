@@ -1,0 +1,17 @@
+String name = new String("Lincoln,Abraham");
+		System.out.println("Original name input is: " + name);
+		
+			int len = name.length();
+		System.out.println("Length of the input is " + len);
+		
+		int comma = name.indexOf(",");
+	System.out.println("The comma delimiter is located at index " + comma);
+	
+	String first = name.substring(8);
+	System.out.println("First name is " + first);
+	
+	String last = name.substring(0,7);
+	System.out.println("Last name is " + last);
+	
+	String fullName = first + " " + last;
+	System.out.print("Correct order of name is " + fullName);
